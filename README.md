@@ -2,7 +2,6 @@
 
 <h1 align="left">Hi, This is Geonhee Lee 👻</h1>
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FIsthisLee%2F&count_bg=%2345B2AF&title_bg=%2335706B&icon=mdnwebdocs.svg&icon_color=%23000000&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://isthislee.com/)](https://blog.isthis.kr/)
 
 
