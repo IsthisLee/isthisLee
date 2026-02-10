@@ -15,7 +15,7 @@
 
 [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/isthislee/my-stack)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IsthisLee&langs_count=10&layout=compact&theme=dark)](https://github.com/IsthisLee) [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=IsthisLee&show_icons=true&theme=dark)](https://github.com/IsthisLee)
+[![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=IsthisLee&langs_count=10&layout=compact&theme=dark)](https://github.com/IsthisLee) [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=IsthisLee&show_icons=true&theme=dark)](https://github.com/IsthisLee)
 
 <!-- <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=isthislee&" alt="isthislee" /></p> --> 
 
