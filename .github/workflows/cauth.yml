@@ -21,14 +21,16 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const token = await core.getIDToken();
+            // Anthropic API 서버를 Audience로 지정하여 Audience 불일치 오류 방지
+            const token = await core.getIDToken('https://api.anthropic.com');
             core.setOutput('token', token);
 
       - name: Anthropic 액세스 토큰으로 교환 테스트
         run: |
           JWT="${{ steps.oidc.outputs.token }}"
           
-          curl -sS https://api.anthropic.com/v1/oauth/token \
+          # -f 옵션을 추가하여 HTTP 에러(4xx, 5xx) 발생 시 워크플로우를 실패(X) 처리
+          curl -sSf https://api.anthropic.com/v1/oauth/token \
             -H "content-type: application/json" \
             --data @- <<EOF
           {
